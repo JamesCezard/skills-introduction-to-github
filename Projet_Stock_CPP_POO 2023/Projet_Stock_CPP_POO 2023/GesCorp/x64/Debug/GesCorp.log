@@ -1,0 +1,6 @@
+﻿  GestCorp.cpp
+  GestCorpProg.cpp
+C:\Users\Carifesta 118\Desktop\L2\Cours de C++\POO\Projet_Intra_CPP_POO\GesCorp\GestCorpProg.cpp(584,11): warning C4553: '==': result of expression not used; did you intend '='?
+  Generating Code...
+C:\Users\Carifesta 118\Desktop\L2\Cours de C++\POO\Projet_Intra_CPP_POO\GesCorp\GestCorpProg.cpp(650): warning C4715: 'GestCorpProd::enregistrer_Val': not all control paths return a value
+  GesCorp.vcxproj -> C:\Users\Carifesta 118\Desktop\L2\Cours de C++\POO\Projet_Intra_CPP_POO\GesCorp\x64\Debug\GestCorp.exe
