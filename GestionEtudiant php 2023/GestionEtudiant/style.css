@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    background-image: url("images/header_back.JPG");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#logo {
+    background-image: url("images/GE.jpg");
+    width: 144px;
+    height: 149px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50px;
+
+}
+
+#text_logo {
+    color: beige;
+    font-size: 3.5em;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color:steelblue;
+    position: sticky;
+    top: 0px;
+}
+
+nav a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;    
+    text-align: center;
+    position: relative;    
+    width: 150px;      
+}
+
+nav ul li:hover{
+       background-color: orange;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a:hover{    
+    border-bottom: 2px solid gold;
+}
+
+.sous-menu{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color:orange;
+    position: absolute;
+    width: 300px;
+    z-index: 1000;
+}
+
+nav>ul li:hover .sous-menu{
+    display: block;
+}
+
+.sous-menu li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+.sous-menu li:hover{
+    background-color: steelblue;
+}
+
+.sous-menu a{
+    padding: 10px;
+    border-bottom: none;
+}
+
+.sous-menu a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+
+.menu-deroulant> a::after{
+    content: icon;
+    font-size: 12px;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #c9e0f9;
+    color: white;
+  }
+
+
